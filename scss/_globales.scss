@@ -1,0 +1,110 @@
+body {
+    background-color: #3f3f3f;
+    color: rgb(56, 174, 6);
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: rgb(56, 174, 6);
+
+}
+
+.nav-link {
+    color: $color-primario;
+    font-size: $fuente-chica;
+    font-weight: bold;
+
+    &:hover {
+        color: $color-cuaternario;
+    }
+}
+
+.nav-link.active {
+    background-color: $color-primario;
+}
+
+.navbar-toggler {
+    background-color: $color-primario;
+    margin-bottom: 30px + $espaciado;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: $fuente-mediana;
+    color: $color-terciario;
+    margin-bottom: $espaciado *3;
+}
+
+.container-cards {
+    @include flex-column;
+    gap: 20px;
+}
+
+@media (min-width: $tablet) {
+    .container-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (min-width: $desktop) {
+    .container-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: $desktopXG) {
+    .container-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card {
+    max-width: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+
+h3 {
+    color: #f8f8f8;
+    @include flex-column;
+}
+
+.container {
+    @include bi;
+}
+
+.bi-facebook {
+    color: #85b2e9;
+}
+
+.bi-instagram {
+    color: #dfa0f2;
+}
+
+.bi-whatsapp {
+    color: #b4f2a2;
+}
+
+.boton {
+    border: solid 1px $color-cuaternario;
+    width: 200px;
+    text-align: center;
+    padding: 5px $espaciado;
+}

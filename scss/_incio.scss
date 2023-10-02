@@ -1,0 +1,30 @@
+.container-fluid {
+    margin-top: $espaciado *2;
+    @include flex-column;
+
+    p {
+        font-size: $fuente-mediana;
+    }
+
+    iconify-icon {
+        font-size: $icono;
+        @include flex-column;
+        gap: 20px;
+        color: $color-quinario;
+        margin-top: 20px;
+
+    }
+}
+
+.contacto {
+    @extend .boton;
+    text-decoration: none;
+    color: $color-primario;
+    background-color: $color-terciario;
+    transition: ease-in .3s;
+
+    &:hover {
+        background-color: $color-primario;
+        color: $color-terciario;
+    }
+}

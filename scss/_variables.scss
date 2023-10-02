@@ -1,0 +1,46 @@
+/* PALETA DE COLORES */
+
+$color-primario: #E0FFE8;
+$color-secundario: #663399;
+$color-terciario: #420085;
+$color-cuaternario: #AFCBFF;
+$color-quinario: #0c326f;
+
+/* FUENTES */
+
+$font-family: 'Montserrat', sans-serif;
+
+/* TAMAÑOS DE FUENTES */
+
+$fuente-chica: 16px;
+$fuente-mediana: 24px;
+$fuente-grande: 28px;
+$icono: 40px;
+
+/* RESOLUCIONES DE PANTALLA */
+$tablet: 768px;
+$desktop: 992px;
+$desktopXG: 1200px;
+
+
+/* ESPACIADO */
+
+$espaciado: 20px;
+
+/* MIXINS */
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bi {
+    margin-top: 20px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

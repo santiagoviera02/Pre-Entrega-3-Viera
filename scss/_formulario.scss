@@ -1,0 +1,9 @@
+.formulario {
+    @include flex-column;
+    gap: $espaciado -5px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid;
+}

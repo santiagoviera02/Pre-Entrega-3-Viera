@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+body {
+    background-color: #3f3f3f;
+    color: rgb(56, 174, 6);
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-link:hover {
+    color: #e0e7f5;
+}
+
+.nav-link.active {
+    background-color: #E0FFE8;
+}
+
+.navbar-toggler {
+    background-color: #E0FFE8;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: rgb(56, 174, 6);
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: #E0FFE8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #420085;
+    margin-bottom: 60px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .container-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card {
+    max-width: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+
+h3 {
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bi-facebook {
+    color: #85b2e9;
+}
+
+.bi-instagram {
+    color: #dfa0f2;
+}
+
+
+.bi-whatsapp {
+    color: #b4f2a2;
+}
+
+.boton,
+.container-cards a,
+.contacto {
+    border: solid 1px #AFCBFF;
+    width: 200px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.container-fluid {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid p {
+    font-size: 24px;
+}
+
+.container-fluid iconify-icon {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.contacto {
+    text-decoration: none;
+    color: #E0FFE8;
+    background-color: #420085;
+    transition: ease-in 0.3s;
+}
+
+.contacto:hover {
+    background-color: #E0FFE8;
+    color: #fcfcfc;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-de-perfil {
+    width: 120px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.certificado {
+    height: 60vh;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.opiniones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.container-cards a {
+    text-decoration: none;
+    color: #E0FFE8;
+    background-color: #0c326f;
+    transition: ease-in 0.3s;
+}
+
+.container-cards a:hover {
+    background-color: #E0FFE8;
+    color: #0c326f;
+}
+
+fieldset {
+    border: 1px solid;
+}
+
+.fuente {
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px -5px;
+    margin-bottom: 20px;
+}
+
+.parrafo-mapas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
